@@ -13,18 +13,14 @@ const TopBar = () => {
     return (
         <div class="top-bar">
             <div class="container container-flex">
-                <ul class="top-bar-contact">
-                    <IconLabelGroup
-                        data={topBarIconsLabels}
-                        classLi={'top-bar-contact-item'}
-                    />
-                </ul>
-                <ul class="top-bar-social">
-                    <IconGroup
-                        icons={socialIcons}
-                        classLi={'top-bar-social-item'}
-                    />
-                </ul>
+                <IconLabelGroup
+                    data={topBarIconsLabels}
+                    classLi={'top-bar-contact-item'}
+                />
+                <IconGroup
+                    icons={socialIcons}
+                    classLi={'top-bar-social-item'}
+                />
             </div>
         </div>
     );
